@@ -1,0 +1,101 @@
+body {
+		margin: 0;
+		padding: 0;
+		background-color: white;
+		font-family: Arial;
+	}
+	.bg img {
+		position: fixed;
+		height: 450px;
+		width: 500px;
+		right: 60%;
+		top: 12%;
+		z-index: -1;
+	}
+
+	.logo img {
+		position: absolute;
+		margin-top: 0;
+		margin-left: 0;
+	}
+	.topnav {
+  		background-color: transparent;
+  		overflow: hidden;
+	}
+	.topnav a {
+  		float: right;
+  		display: block;
+  		color: #152238;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+ 		font-size: 17px;
+  		border-bottom: 3px solid transparent;
+	}
+
+
+	.topnav a:hover {
+		background: transparent;
+		border-bottom: 2px solid #ffb814;
+		transition: 0.5s;
+	}
+
+	
+.title {
+		position: absolute;
+		top: 30%;
+		left: 35%;
+	}
+.stclogo {
+		position: absolute;
+		top: 15%;
+		left: 48%;
+	}
+
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: transparent;
+	max-width: 550px;
+	width: 540px;
+	padding: 10px;
+	border-radius: 5px;
+	display: flex;	
+	justify-content: space-between;
+}
+.wrapper .Search{
+	width: 238%;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 20px;
+	background: #cfe2f3ff;
+}
+
+
+::placeholder { 
+  color: black;
+  font-weight: bold;
+  font-family: Verdana;
+  opacity: 1; 
+}
+
+.search {
+	position: fixed;
+	top: 57%;
+	left: 30%;
+	z-index: -5;
+
+	}
+
+	footer {
+		position: fixed;
+    	width: 100%;
+    	height: 32px;
+    	background-color: #152238;
+		bottom: 0;
+		color: #f2f2f2;
+    }
+ 

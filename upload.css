@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.research {
+	position: absolute;
+	top: 20%;
+	left: 3%;
+}
+
+.back {
+	position: absolute;
+	top: 20%;
+	left: 19%;
+}
+
+.abstract {
+	position: absolute;
+	top: 50%;
+	left: 3%;
+}
+
+.door {
+	position: absolute;
+	top: 50%;
+	left: 19%;
+	background-color:#ADD8E6;
+	font-family: Arial;
+}
+
+.try {
+	position: absolute;
+	bottom: 15%;
+	left: 3%;
+}
+
+.upload {
+	position: absolute;
+	left: 19%;
+	bottom: 15%;
+	width: 80px;
+	background-color:#ADD8E6;
+}
+
+.submit {
+	position: fixed;
+	bottom: 10%;
+	right: 50%;
+	width: 55px; 
+	background-color: #FFD700;
+}
+
+.researchers {
+	position: absolute;
+	top: 30%;
+	left: 3%;
+}
+
+.yuri {
+	position: absolute;
+	top: 30%;
+	left: 19%;
+}
+
+.subject {
+	position: absolute;
+	top: 40%;
+	left: 3%;
+}
+
+.lino { 
+	position: absolute;
+	top: 40%;
+	left: 19%;
+	font-size: 20px;
+}
+
+.year {
+	position: absolute;
+	top: 41%;
+	left: 35%;
+}
+
+.sunshine {
+	position: absolute;
+	top: 40%;
+	left: 46%;
+}
+
+.keywords {
+	position: absolute;
+	top: 41%;
+	left: 57%;
+}
+
+.shine {
+	position: absolute;
+	top: 40%;
+	left: 65%;
+}
+	
+	
